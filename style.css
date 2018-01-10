@@ -1,14 +1,185 @@
 body {
+	background-color: #ffd7d4;
 	font-family: OpenSans, sans-serif;
+	font-size: 1em;
 }
 
 .navbar {
-	background-color: #0b0b0b;
-	font-size: .75rem;
+	background-color: rgba(0, 0, 0, 0.25);
+	font-size: .8em;
 	text-transform: uppercase;
 }
 
 .navbar-brand {
 	color: #fff;
 	font-size: 1.5rem;
+}
+
+.backdrop {
+	border-radius: 0;
+	background-image: url('images/background_image.png');
+	background-size: 100%;
+	height: 500px;
+	width: auto;
+	margin-bottom: 0;
+}
+
+.title-info {
+	color: #d8d8d8;
+	font-weight: 300;
+	line-height: 1.6;
+	margin: 20% 10% 0 10%;
+	text-align: center;
+}
+
+.title-top {
+	color: #fff;
+	font-size: 2.5em;
+	text-transform: uppercase;
+	text-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.title {
+	color: #1a1a1a;
+	font-size: 2em;
+	margin-bottom: 1.5rem;
+	text-transform: uppercase;
+}
+
+.features {
+	padding: 5rem 1rem;
+}
+
+.feature-thumbnail,
+.team-pic {
+	background-size: 100%;
+	height: 150px;
+	width: 150px;
+	margin: auto;
+}
+
+.feature-title {
+	color: #1a1a1a;
+	font-size: 1.25em;
+	font-weight: bold;
+	line-height: 0.95;
+	padding-top: 2rem;
+	padding-bottom: .5rem;
+	text-align: center;
+}
+
+.feature-desc {
+	color: #646464;
+	font-size: .75em;
+	font-weight: 300;
+	line-height: 2.13;
+	text-align: center;
+}
+
+.computer-thumbnail {
+	background-image: url('images/computer_icon.png');
+}
+
+.customize-thumbnail {
+	background-image: url('images/customize_icon.png');
+}
+
+.responsive-thumbnail {
+	background-image: url('images/responsive_icon.png');
+}
+
+.team,
+.portfolio {
+	background-color: #ffffff;
+	text-align: center;
+	margin-bottom: 1rem;
+	padding-top: 4rem;
+}
+
+.desc {
+	color: #646464;
+	font-size: 1em;
+	line-height: 1.6;
+	margin: auto;
+	width: 45%;
+}
+
+.team-pics {
+	color: #000000;
+	margin: auto;
+	padding-top: 3rem;
+	padding-bottom: 3em;
+	width: 70%;
+}
+
+.team-pic {
+	margin-bottom: 1rem;
+}
+
+.john {
+	background-image: url('images/John.png');
+}
+
+.adam {
+	background-image: url('images/Adam.png');
+}
+
+.kevi {
+	background-image: url('images/Kevi.png');
+}
+
+.vicky {
+	background-image: url('images/Vicky.png');
+}
+
+.quote {
+	background-color: #d8d8d8;
+	color: #000000;
+	font-size: 1.5em;
+	margin: 0;
+	padding: 4em 0;
+	text-align: center;
+}
+
+.quote-author {
+	font-size: .65em;
+	text-transform: uppercase;
+	text-align: right;
+}
+
+.quote-container {
+	width: 52%;
+}
+
+.button-container {
+	margin: 5rem 0;
+}
+
+.active {
+	background-color: #e54b44;
+	box-shadow: #e54b44;
+}
+
+.my-btn {
+	background-color: #ffffff;
+	border: solid 1px #e54b44;
+	border-radius: 0;
+	color: #4a4a4a;
+	margin: 0 .75rem;
+	transition:
+		color .15s ease-in-out,
+		background-color .15s ease-in-out,
+		border-color .15s ease-in-out,
+		box-shadow .15s ease-in-out;
+}
+
+.gallery {
+	margin: auto;
+	width: 80%;
+}
+
+.gallery-img {
+	width: 253px;
+	height: 197px;
+	margin: .5rem;
 }
