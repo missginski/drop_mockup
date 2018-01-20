@@ -122,7 +122,7 @@ body {
 }
 
 .button-container {
-	margin: 5rem 0;
+	margin: 4rem 0;
 }
 
 .btn {
@@ -156,7 +156,7 @@ body {
 .gallery-img {
 	width: 270px;
 	height: 210px;
-	margin: .75rem;
+	margin: 1.5rem 0;
 }
 
 .contact {
@@ -179,8 +179,17 @@ body {
 	background-color: rgba(0, 0, 0, 0.5);
 }
 
+.form-control:hover,
+.form-control:focus,
+.form-control:active,
+.form-control.active,
+.open>.dropdown-toggle.form-control {
+	border: 1px solid rgba(0, 0, 0, 0.5);
+	background: rgba(0, 0, 0, 0.45);
+}
+
 footer {
-	margin: 3.5rem auto;
+	margin: 4rem auto;
 }
 
 .social-icon {
