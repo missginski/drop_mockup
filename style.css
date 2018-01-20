@@ -22,7 +22,7 @@ body {
 	padding-bottom: 5rem;
 }
 
-.pin-icon {
+.pin {
 	padding-bottom: 2rem;
 	margin: auto;
 	width: auto;
@@ -85,18 +85,6 @@ body {
 	margin: auto;
 }
 
-.computer-thumbnail {
-	background-image: url('images/computer_icon.png');
-}
-
-.customize-thumbnail {
-	background-image: url('images/customize_icon.png');
-}
-
-.responsive-thumbnail {
-	background-image: url('images/responsive_icon.png');
-}
-
 .team,
 .portfolio {
 	background-color: #ffffff;
@@ -114,22 +102,6 @@ body {
 
 .team-pic {
 	margin-bottom: 1rem;
-}
-
-.john {
-	background-image: url('images/John.png');
-}
-
-.adam {
-	background-image: url('images/Adam.png');
-}
-
-.kevi {
-	background-image: url('images/Kevi.png');
-}
-
-.vicky {
-	background-image: url('images/Vicky.png');
 }
 
 .quote {
@@ -153,9 +125,9 @@ body {
 	margin: 5rem 0;
 }
 
-.active {
-	background-color: #e54b44;
-	box-shadow: #e54b44;
+.btn {
+	border-radius: 0;
+	width: 180px;
 }
 
 .my-btn {
@@ -164,11 +136,16 @@ body {
 	border-radius: 0;
 	color: #4a4a4a;
 	margin: .25rem .75rem;
-	transition:
-		color .15s ease-in-out,
-		background-color .15s ease-in-out,
-		border-color .15s ease-in-out,
-		box-shadow .15s ease-in-out;
+}
+
+.my-btn:hover,
+.my-btn:focus,
+.my-btn:active,
+.my-btn.active,
+.open>.dropdown-toggle.my-btn {
+	border: solid 1px #e54b44;
+	background: #e54b44;
+	box-shadow: none;
 }
 
 .gallery {
@@ -182,10 +159,6 @@ body {
 	margin: .75rem;
 }
 
-footer {
-	margin: 3.5rem auto;
-}
-
 .contact {
 	background-image: url('images/contact_image.png');
 	background-size: cover;
@@ -197,7 +170,6 @@ footer {
 	width: 35%;
 }
 
-
 .form-control {
 	color: #c8c5c5;
 	font-style: italic;
@@ -207,9 +179,8 @@ footer {
 	background-color: rgba(0, 0, 0, 0.5);
 }
 
-.btn {
-	border-radius: 0;
-	width: 180px;
+footer {
+	margin: 3.5rem auto;
 }
 
 .social-icon {
