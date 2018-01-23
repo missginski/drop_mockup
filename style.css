@@ -2,6 +2,7 @@ body {
 	background-color: #ffd7d4;
 	font-family: OpenSans, sans-serif;
 	text-align: center;
+	border-radius: 0;
 }
 
 .navbar {
@@ -23,10 +24,9 @@ body {
 }
 
 .pin {
-	padding-bottom: 2rem;
-	margin: auto;
-	width: auto;
 	height: 225px;
+	width: auto;
+	padding-bottom: 2rem;
 }
 
 .title-info {
@@ -150,17 +150,14 @@ body {
 
 .gallery {
 	margin: auto;
-	width: 85%;
+	/*width: 85%;*/
 }
 
 .gallery-img {
-	width: 270px;
-	height: 210px;
-	margin: 1rem 0;
-}
-
-.row.gallery {
+	width: 353px;
+	height: 275px;
 	padding: 1rem;
+	flex: none;
 }
 
 .contact {
