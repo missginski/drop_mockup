@@ -9,13 +9,3 @@ $('.my-btn').click(function(){
     $('.filter').filter('.' + value).show('3000');
   }
 });
-
-// $('.navbar li.dropdown').hover(
-//     function(){
-//         $(this).addClass('open').find('ul').stop(true,true).hide().slideDown('fast');
-//     },
-//     function(){
-//         $(this).removeClass('open').find('ul').stop(true,true).slideUp('fast');
-//     }
-// );
-// $('.navbar li.dropdown li').unbind('mouseover').unbind('mouseout');
