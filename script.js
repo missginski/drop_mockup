@@ -1,3 +1,9 @@
+$('.nav-link').click(function(){
+	window.scrollTo( 0, 1000 );
+})
+
+
+
 $('.my-btn').click(function(){
   let value = $(this).attr('data-filter');
 

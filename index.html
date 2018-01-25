@@ -1,6 +1,15 @@
 <!DOCTYPE html>
 <html>
 	<head>
+		<!-- Global site tag (gtag.js) - Google Analytics -->
+		<script async src="https://www.googletagmanager.com/gtag/js?id=UA-90359113-3"></script>
+		<script>
+		  window.dataLayer = window.dataLayer || [];
+		  function gtag(){dataLayer.push(arguments);}
+		  gtag('js', new Date());
+
+		  gtag('config', 'UA-90359113-3');
+		</script>
 		<meta charset="utf-8">
 		<title>DROP</title>
 		<link href="https://fonts.googleapis.com/css?family=Open+Sans:300" rel="stylesheet">
@@ -17,25 +26,21 @@
 				<div class="collapse navbar-collapse justify-content-end">
 					<ul class="navbar-nav">
 						<li class="nav-item">
-							<a class="nav-link" href="#">Home</a>
+							<a class="nav-link" href="#my-features">About</a>
 						</li>
-						<li class="nav-item">
-							<a class="nav-link" href="#">About</a>
-						</li>
-
 						<li class="nav-item dropdown">
-							<a class="nav-link dropdown-toggle" href="#" id="dropdownLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+							<a class="nav-link dropdown-toggle" href="#my-portfolio" id="dropdownLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
 								Portfolio
 							</a>
 
 							<div class="dropdown-menu" aria-labelledby="dropdownLink">
-								<a class="dropdown-item" href="#">Web</a>
-								<a class="dropdown-item" href="#">Mobile</a>
-								<a class="dropdown-item" href="#">Graphic Design</a>
+								<a class="dropdown-item" href="#my-portfolio">Web</a>
+								<a class="dropdown-item" href="#my-portfolio">Mobile</a>
+								<a class="dropdown-item" href="#my-portfolio">Graphic Design</a>
 							</div>
 						</li>
 						<li class="nav-item">
-							<a class="nav-link" href="#">Contact</a>
+							<a class="nav-link" href="#my-contact">Contact</a>
 						</li>
 					</ul>
 				</div>
@@ -43,19 +48,19 @@
 		</nav>
 
 		<div class="container">
-			<div class="title-info">
+			<div class="section-wrapper">
 				<img src="images/pin.png" class="pin">
 				<h1 class="title title-top">
 					Creative Professional
 				</h1>
-				<p>
+				<p class="title-info">
 					Lorem ipsum dolor sit amet, natum bonorum expetendis usu ut. Eum impetus offendit disputationi eu, at vim aliquip lucilius praesent. Alia laudem antiopam te ius, sed ad munere integre, ubique facete sapientem nam ut.
 				</p>
 			</div>
 		</div>
 	</div>
 
-	<section class="features section-wrapper">
+	<section class="features section-wrapper" id="my-features">
 		<div class="container">
 		  <div class="row">
 		    <div class="col-sm">
@@ -117,7 +122,7 @@
 		</div>
 	</section>
 
-	<section class="portfolio">
+	<section class="portfolio" id="my-portfolio">
 		<div class="container">
 			<h1 class="title">Portfolio</h1>
 			<p class="desc">
@@ -130,33 +135,33 @@
 				<button type="button" class="btn btn-outline-dark my-btn" data-filter="design">Graphic Design</button>
 			</div>
 
-			<div class="gallery container col-md-12">
+			<div class="gallery container col-lg-12 col-md-12 col-sm-12 col-xs-12">
 				<div class="row">
-					<div class="col-md-4 filter mobile-dev">
+					<div class="col-lg-4 col-md-4 col-sm-4 col-xs-6 filter mobile-dev">
 						<img src="images/one.png"  class="gallery-img img-fluid">
 					</div>
-					<div class="col-md-4 filter web-dev">
+					<div class="col-lg-4 col-md-4 col-sm-4 col-xs-6 filter web-dev">
 						<img src="images/two.png"  class="gallery-img img-fluid">
 					</div>
-					<div class="col-md-4 filter mobile-dev design">
+					<div class="col-lg-4 col-md-4 col-sm-4 col-xs-6 filter mobile-dev design">
 						<img src="images/three.png"  class="gallery-img img-fluid">
 					</div>
-					<div class="col-md-4 filter design">
+					<div class="col-lg-4 col-md-4 col-sm-4 col-xs-6 filter design">
 						<img src="images/four.png"  class="gallery-img img-fluid">
 					</div>
-					<div class="col-md-4 filter mobile-dev web-dev">
+					<div class="col-lg-4 col-md-4 col-sm-4 col-xs-6 filter mobile-dev web-dev">
 						<img src="images/five.png"  class="gallery-img img-fluid">
 					</div>
-					<div class="col-md-4 filter mobile-dev design">
+					<div class="col-lg-4 col-md-4 col-sm-4 col-xs-6 filter mobile-dev design">
 						<img src="images/six.png"  class="gallery-img img-fluid">
 					</div>
-					<div class="col-md-4 filter mobile-dev">
+					<div class="col-lg-4 col-md-4 col-sm-4 col-xs-6 filter mobile-dev">
 						<img src="images/seven.png"  class="gallery-img img-fluid">
 					</div>
-					<div class="col-md-4 filter design web-dev">
+					<div class="col-lg-4 col-md-4 col-sm-4 col-xs-6 filter design web-dev">
 						<img src="images/eight.png"  class="gallery-img img-fluid">
 					</div>
-					<div class="col-md-4 filter  web-dev">
+					<div class="col-lg-4 col-md-4 col-sm-4 col-xs-6 filter  web-dev">
 						<img src="images/nine.png"  class="gallery-img img-fluid">
 					</div>
 
@@ -176,21 +181,23 @@
 		</div>
 	</section>
 
-	<section class="contact">
+	<section class="contact section-wrapper" id="my-contact">
 		<div class="container">
 			<h1 class="title">Contact Us</h1>
 			<p class="desc">
 				Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet consectetur, adipisci velit, sed quia non numquam.
 			</p>
-			<form class="contact-form">
-			  <input type="name" class="form-control" placeholder="Enter name">
-				<input type="email" class="form-control" placeholder="Enter email">
-				<input type="subject" class="form-control" placeholder="Subject">
-				<textarea class="form-control" rows="3" placeholder="Message"></textarea>
-				<div class="d-flex justify-content-end">
-				  <button type="submit" class="btn btn-outline-light">Send</button>
-				</div>
-			</form>
+			<div class="form-container">
+				<form class="contact-form">
+				  <input type="name" class="form-control" placeholder="Enter name">
+					<input type="email" class="form-control" placeholder="Enter email">
+					<input type="subject" class="form-control" placeholder="Subject">
+					<textarea class="form-control" rows="3" placeholder="Message"></textarea>
+					<div class="d-flex justify-content-end">
+					  <button type="submit" class="btn btn-outline-light">Send</button>
+					</div>
+				</form>
+			</div>
 		</div>
 	</section>
 

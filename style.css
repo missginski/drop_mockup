@@ -1,20 +1,31 @@
 body {
 	background-color: #ffd7d4;
-	font-family: OpenSans, sans-serif;
-	text-align: center;
 	border-radius: 0;
-}
-
-.navbar {
-	background-color: rgba(0, 0, 0, 0.25);
-	font-size: .8em;
-	text-transform: uppercase;
+	font-family: OpenSans, sans-serif;
+	margin: auto;
+	text-align: center;
 }
 
 .navbar-brand {
 	color: #fff;
 	font-size: 1.4rem;
 	font-weight: 300;
+}
+
+.navbar,
+.dropdown-menu {
+	background-color: rgba(0, 0, 0, 0.25);
+	font-size: .8em;
+	text-transform: uppercase;
+}
+
+.dropdown-menu {
+	font-size: 1em;
+	margin-top: -.025rem;
+}
+
+.dropdown-item {
+	color: #c8c5c5;
 }
 
 .backdrop {
@@ -29,13 +40,6 @@ body {
 	padding-bottom: 2rem;
 }
 
-.title-info {
-	color: #d8d8d8;
-	font-weight: 300;
-	line-height: 1.6;
-	margin: 4rem;
-}
-
 .title {
 	color: #1a1a1a;
 	font-size: 2em;
@@ -47,6 +51,14 @@ body {
 	color: #ffffff;
 	font-size: 2.5em;
 	text-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.title-info {
+	color: #d8d8d8;
+	font-weight: 300;
+	line-height: 1.6;
+	margin: auto;
+	max-width: 85%;
 }
 
 .feature-title {
@@ -67,7 +79,7 @@ body {
 	font-size: 1em;
 	line-height: 1.6;
 	margin: auto;
-	width: 45%;
+	max-width: 67%;
 }
 
 .feature-desc {
@@ -85,6 +97,14 @@ body {
 	margin: auto;
 }
 
+.team-pic {
+	margin-bottom: 1rem;
+}
+
+.team-pic-container {
+	padding: 0;
+}
+
 .team,
 .portfolio {
 	background-color: #ffffff;
@@ -97,11 +117,7 @@ body {
 	margin: auto;
 	padding-top: 3rem;
 	padding-bottom: 3em;
-	width: 70%;
-}
-
-.team-pic {
-	margin-bottom: 1rem;
+	max-width: 70%;
 }
 
 .quote {
@@ -118,7 +134,7 @@ body {
 }
 
 .quote-container {
-	width: 52%;
+	max-width: 72%;
 }
 
 .button-container {
@@ -133,9 +149,8 @@ body {
 .my-btn {
 	background-color: #ffffff;
 	border: solid 1px #e54b44;
-	border-radius: 0;
 	color: #4a4a4a;
-	margin: .25rem .75rem;
+	margin: .5rem;
 }
 
 .my-btn:hover,
@@ -148,16 +163,10 @@ body {
 	box-shadow: none;
 }
 
-.gallery {
-	margin: auto;
-	/*width: 85%;*/
-}
-
 .gallery-img {
-	width: 353px;
-	height: 275px;
-	padding: 1rem;
-	flex: none;
+	max-width: 100%;
+	height: auto;
+	padding: 1rem 0;
 }
 
 .contact {
@@ -166,9 +175,13 @@ body {
 	padding: 3.5rem 0;
 }
 
-.contact-form {
+.form-container {
 	margin: auto;
-	width: 35%;
+	max-width: 35%;
+}
+
+.contact-desc {
+	padding: 0;
 }
 
 .form-control {
@@ -199,11 +212,17 @@ footer {
 	margin: .5rem
 }
 
-.dropdown:hover>.dropdown-menu {
-  display: block;
+@media only screen and (min-width : 992px) {
+	.dropdown:hover>.dropdown-menu {
+	  display: block;
+	}
+	.dropdown>.dropdown-toggle:active {
+	    pointer-events: none;
+	}
 }
-
-.dropdown>.dropdown-toggle:active {
-  /*Without this, clicking will make it sticky*/
-    pointer-events: none;
-}
+/*
+@media (min-width: 576px) {
+	.contact-form {
+		max-width: 50%;
+	}
+}*/
