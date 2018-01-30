@@ -12,27 +12,29 @@
 		</script>
 		<meta charset="utf-8">
 		<title>DROP</title>
-		<link href="https://fonts.googleapis.com/css?family=Open+Sans:300" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400" rel="stylesheet">
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/css/bootstrap.min.css" integrity="sha384-Zug+QiDoJOrZ5t4lssLdxGhVrurbmBWopoEl+M6BdEfwnCJZtKxi1KgxUyJq13dy" crossorigin="anonymous">
 		<link rel="stylesheet" href="style.css">
 	</head>
 	<body>
 
 	<div class="image-fluid backdrop">
-
 		<nav class="navbar navbar-expand navbar-toggleable-md navbar-dark">
 			<div class="container">
+
 				<a class="navbar-brand" href="#">DROP</a>
+				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsingNavbar">
+					<span class="navbar-toggler-icon"></span>
+				</button>
 				<div class="collapse navbar-collapse justify-content-end">
 					<ul class="navbar-nav">
 						<li class="nav-item">
-							<a class="nav-link" href="#my-features">About</a>
+							<a class="nav-link" href="#my-team">Team</a>
 						</li>
 						<li class="nav-item dropdown">
 							<a class="nav-link dropdown-toggle" href="#my-portfolio" id="dropdownLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
 								Portfolio
 							</a>
-
 							<div class="dropdown-menu" aria-labelledby="dropdownLink">
 								<a class="dropdown-item" href="#my-portfolio">Web</a>
 								<a class="dropdown-item" href="#my-portfolio">Mobile</a>
@@ -49,7 +51,7 @@
 
 		<div class="container">
 			<div class="section-wrapper">
-				<img src="images/pin.png" class="pin">
+				<img src="images/pin.png" class="pin image-fluid">
 				<h1 class="title title-top">
 					Creative Professional
 				</h1>
@@ -64,21 +66,21 @@
 		<div class="container">
 		  <div class="row">
 		    <div class="col-sm">
-					<img src="images/computer_icon.png" class="feature-thumbnail">
+					<img src="images/computer_icon.png" class="feature-thumbnail image-fluid">
 					<h2 class="feature-title">Valid HTML</h2>
 					<p class="feature-desc">
 						Lorem ipsum dolor sit amet, mutat graeco volumus ad eam, singulis patrioque comprehensam nam no. Mei cu dicat voluptaria volumus.
 					</p>
 		    </div>
 				<div class="col-sm">
-					<img src="images/customize_icon.png" class="feature-thumbnail">
+					<img src="images/customize_icon.png" class="feature-thumbnail image-fluid">
 					<h2 class="feature-title">Customizable</h2>
 					<p class="feature-desc">
 						Lorem ipsum dolor sit amet, mutat graeco volumus ad eam, singulis patrioque comprehensam nam no. Mei cu dicat voluptaria volumus.
 					</p>
 		    </div>
 				<div class="col-sm">
-					<img src="images/responsive_icon.png" class="feature-thumbnail">
+					<img src="images/responsive_icon.png" class="feature-thumbnail image-fluid">
 					<h2 class="feature-title">Responsive</h2>
 					<p class="feature-desc">
 						Lorem ipsum dolor sit amet, mutat graeco volumus ad eam, singulis patrioque comprehensam nam no. Mei cu dicat voluptaria volumus.
@@ -88,7 +90,7 @@
 		</div>
 	</section>
 
-	<section class="team">
+	<section class="team" id="my-team">
 		<div class="container">
 			<h1 class="title">Our Team</h1>
 			<p class="desc">
@@ -184,10 +186,10 @@
 	<section class="contact section-wrapper" id="my-contact">
 		<div class="container">
 			<h1 class="title">Contact Us</h1>
-			<p class="desc">
-				Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet consectetur, adipisci velit, sed quia non numquam.
-			</p>
 			<div class="form-container">
+				<p class="desc contact-desc">
+					Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet consectetur, adipisci velit, sed quia non numquam.
+				</p>
 				<form class="contact-form">
 				  <input type="name" class="form-control" placeholder="Enter name">
 					<input type="email" class="form-control" placeholder="Enter email">
@@ -223,7 +225,7 @@
 				<img class="social-icon" src="images/dribbble_F.png">
 			</a>
 		</div>
-		<small class="text-muted">Copyright @ 2018 Drop</small>
+		<p class="text-muted">Copyright @ 2018 Drop</p>
 	</footer>
 
 

@@ -8,14 +8,14 @@ body {
 
 .navbar-brand {
 	color: #fff;
-	font-size: 1.4rem;
-	font-weight: 300;
+	font-size: 2em;
+	font-weight: lighter;
 }
 
 .navbar,
 .dropdown-menu {
 	background-color: rgba(0, 0, 0, 0.25);
-	font-size: .8em;
+	font-size: .87em;
 	text-transform: uppercase;
 }
 
@@ -35,21 +35,21 @@ body {
 }
 
 .pin {
-	height: 225px;
-	width: auto;
+	max-width: 100%;
+	height: auto;
 	padding-bottom: 2rem;
 }
 
 .title {
-	color: #1a1a1a;
-	font-size: 2em;
-	margin-bottom: 1.5rem;
+	color: #222222;
+	font-size: 2.25em;
+	margin-bottom: 2rem;
 	text-transform: uppercase;
 }
 
 .title-top {
 	color: #ffffff;
-	font-size: 2.5em;
+	font-size: 3em;
 	text-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
 }
 
@@ -57,12 +57,13 @@ body {
 	color: #d8d8d8;
 	font-weight: 300;
 	line-height: 1.6;
+	padding-top: .5rem;
 	margin: auto;
 	max-width: 85%;
 }
 
 .feature-title {
-	color: #1a1a1a;
+	color: #222222;
 	font-size: 1.25em;
 	font-weight: bold;
 	line-height: 0.95;
@@ -71,19 +72,20 @@ body {
 }
 
 .section-wrapper {
-	padding: 5rem 1rem;
+	padding: 7rem 1rem;
 }
 
 .desc {
-	color: #646464;
+	color: #777777;
 	font-size: 1em;
-	line-height: 1.6;
+	line-height: 2.25;
 	margin: auto;
-	max-width: 67%;
+	max-width: 55%;
+	padding-bottom: 2rem;
 }
 
 .feature-desc {
-	color: #646464;
+	color: #777777;
 	font-size: .75em;
 	font-weight: 300;
 	line-height: 2.13;
@@ -91,10 +93,14 @@ body {
 
 .feature-thumbnail,
 .team-pic {
-	background-size: 100%;
-	height: 150px;
-	width: 150px;
+	background-size: cover;
+	height: auto;
+	max-width: 100%;
 	margin: auto;
+}
+
+.features {
+	margin: 3rem auto;
 }
 
 .team-pic {
@@ -102,14 +108,14 @@ body {
 }
 
 .team-pic-container {
-	padding: 0;
+	padding: 1rem;
 }
 
 .team,
 .portfolio {
 	background-color: #ffffff;
-	margin-bottom: 1rem;
-	padding-top: 4rem;
+	margin-bottom: 1.5rem;
+	padding-top: 6rem;
 }
 
 .team-pics {
@@ -117,24 +123,26 @@ body {
 	margin: auto;
 	padding-top: 3rem;
 	padding-bottom: 3em;
-	max-width: 70%;
+	/*max-width: 70%;*/
 }
 
 .quote {
-	background-color: #d8d8d8;
+	background-color: rgba(216, 216, 216, 0.14);
 	color: #000000;
-	font-size: 1.5em;
+	font-size: 2em;
 	margin: 0;
-	padding: 4em 0;
+	padding: 8rem 0;
+	font-weight: 300;
 }
 
 .quote-author {
 	font-size: .65em;
 	text-transform: uppercase;
+	text-align: right;
 }
 
 .quote-container {
-	max-width: 72%;
+	max-width: 70%;
 }
 
 .button-container {
@@ -144,6 +152,7 @@ body {
 .btn {
 	border-radius: 0;
 	width: 180px;
+	padding: .75rem;
 }
 
 .my-btn {
@@ -172,25 +181,35 @@ body {
 .contact {
 	background-image: url('images/contact_image.png');
 	background-size: cover;
-	padding: 3.5rem 0;
+	padding: 6rem 0 3rem 0;
 }
 
 .form-container {
 	margin: auto;
-	max-width: 35%;
+	max-width: 55%;
 }
 
 .contact-desc {
-	padding: 0;
+	max-width: 100%;
+	font-weight: 300;
+	line-height: 2.1;
+	padding-bottom: 0;
+	color: #000000;
 }
 
 .form-control {
 	color: #c8c5c5;
 	font-style: italic;
-	margin: 1rem 0;
+	margin: 2rem auto;
+	padding: 1rem;
 	border: 1px solid rgba(0, 0, 0, 0.5);
 	border-radius: 0;
 	background-color: rgba(0, 0, 0, 0.5);
+}
+
+.contact-form {
+	max-width: 90%;
+	margin: auto;
 }
 
 .form-control:hover,
@@ -203,13 +222,13 @@ body {
 }
 
 footer {
-	margin: 4rem auto;
+	margin: 7rem auto;
 }
 
 .social-icon {
-	height: 25px;
-	width: 25px;
-	margin: .5rem
+	max-width: 100%;
+	height: auto;
+	margin: 1rem;
 }
 
 @media only screen and (min-width : 992px) {
@@ -219,10 +238,11 @@ footer {
 	.dropdown>.dropdown-toggle:active {
 	    pointer-events: none;
 	}
+	.contact-container {
+		max-width: 100%;
+	}
 }
 /*
 @media (min-width: 576px) {
-	.contact-form {
-		max-width: 50%;
-	}
+
 }*/
