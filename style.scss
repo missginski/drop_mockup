@@ -80,7 +80,7 @@ body {
 	font-size: 1em;
 	line-height: 2.25;
 	margin: auto;
-	max-width: 55%;
+	max-width: 85%;
 	padding-bottom: 2rem;
 }
 
@@ -123,7 +123,6 @@ body {
 	margin: auto;
 	padding-top: 3rem;
 	padding-bottom: 3em;
-	/*max-width: 70%;*/
 }
 
 .quote {
@@ -138,11 +137,12 @@ body {
 .quote-author {
 	font-size: .65em;
 	text-transform: uppercase;
-	text-align: right;
 }
 
 .quote-container {
 	max-width: 70%;
+	text-align: center;
+	line-height: 2.5;
 }
 
 .button-container {
@@ -182,11 +182,6 @@ body {
 	background-image: url('images/contact_image.png');
 	background-size: cover;
 	padding: 6rem 0 3rem 0;
-}
-
-.form-container {
-	margin: auto;
-	max-width: 55%;
 }
 
 .contact-desc {
@@ -231,6 +226,23 @@ footer {
 	margin: 1rem;
 }
 
+.form-container {
+	margin: auto;
+	max-width: 85%;
+}
+
+@media (min-width: 768px) {
+	.quote-container {
+		text-align: right;
+	}
+	.form-container {
+		max-width: 55%;
+	}
+	.desc {
+		max-width: 55%;
+	}
+}
+
 @media only screen and (min-width : 992px) {
 	.dropdown:hover>.dropdown-menu {
 	  display: block;
@@ -238,11 +250,3 @@ footer {
 	.dropdown>.dropdown-toggle:active {
 	    pointer-events: none;
 	}
-	.contact-container {
-		max-width: 100%;
-	}
-}
-/*
-@media (min-width: 576px) {
-
-}*/

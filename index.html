@@ -14,11 +14,11 @@
 		<title>DROP</title>
 		<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400" rel="stylesheet">
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/css/bootstrap.min.css" integrity="sha384-Zug+QiDoJOrZ5t4lssLdxGhVrurbmBWopoEl+M6BdEfwnCJZtKxi1KgxUyJq13dy" crossorigin="anonymous">
-		<link rel="stylesheet" href="style.css">
+		<link rel="stylesheet" href="style.scss">
 	</head>
 	<body>
 
-	<div class="image-fluid backdrop">
+	<div class="image-fluid backdrop" id="home">
 		<nav class="navbar navbar-expand navbar-toggleable-md navbar-dark">
 			<div class="container">
 
@@ -32,7 +32,7 @@
 							<a class="nav-link" href="#my-team">Team</a>
 						</li>
 						<li class="nav-item dropdown">
-							<a class="nav-link dropdown-toggle" href="#my-portfolio" id="dropdownLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+							<a class="nav-link dropdown-toggle" href="" id="dropdownLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
 								Portfolio
 							</a>
 							<div class="dropdown-menu" aria-labelledby="dropdownLink">
@@ -62,7 +62,7 @@
 		</div>
 	</div>
 
-	<section class="features section-wrapper" id="my-features">
+	<section class="features section-wrapper">
 		<div class="container">
 		  <div class="row">
 		    <div class="col-sm">
@@ -97,19 +97,19 @@
 				Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet consectetur, adipisci velit, sed quia non numquam.
 			</p>
 		  <div class="row team-pics">
-		    <div class="col-sm team-pic-container">
+		    <div class="col-md-3 col-xs-4 team-pic-container">
 					<img src="images/John.png" class="team-pic">
 					<p>John Appleseed</p>
 		    </div>
-				<div class="col-sm team-pic-container">
+				<div class="col-md-3 col-xs-4 team-pic-container">
 					<img src="images/Adam.png" class="team-pic">
 					<p>Adam Bo</p>
 		    </div>
-				<div class="col-sm team-pic-container">
+				<div class="col-md-3 col-xs-4  team-pic-container">
 					<img src="images/Kevi.png" class="team-pic">
 					<p>Kevi Gill</p>
 		    </div>
-				<div class="col-sm team-pic-container">
+				<div class="col-md-3 col-xs-4  team-pic-container">
 					<img src="images/Vicky.png" class="team-pic">
 					<p>Vicky Tan</p>
 				</div>
@@ -177,8 +177,11 @@
 
 		<div class="quote">
 			<div class="container quote-container">
-				<p>Nunc velit risus, dapibus non interdum quis, suscipit nec dolor.</p>
-				<p class="quote-author">Santosh Anand</p>
+				<p>
+					Nunc velit risus, dapibus non interdum quis, suscipit nec dolor.<br>
+					<span class="quote-author">Santosh Anand</span>
+				</p>
+
 			</div>
 		</div>
 	</section>
