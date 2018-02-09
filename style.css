@@ -202,11 +202,6 @@ body {
 	background-color: rgba(0, 0, 0, 0.5);
 }
 
-.contact-form {
-	max-width: 90%;
-	margin: auto;
-}
-
 .form-control:hover,
 .form-control:focus,
 .form-control:active,
@@ -229,6 +224,11 @@ footer {
 .form-container {
 	margin: auto;
 	max-width: 85%;
+}
+
+.contact-form {
+	max-width: 90%;
+	margin: auto;
 }
 
 @media (min-width: 768px) {
