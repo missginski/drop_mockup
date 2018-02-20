@@ -1,6 +1,6 @@
-$('.nav-link').click(function(){
-	window.scrollTo( 0, 1000 );
-})
+// $('.nav-link').click(function(){
+// 	window.scrollTo( 0, 1000 );
+// })
 
 
 
