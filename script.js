@@ -2,9 +2,16 @@
 // 	window.scrollTo( 0, 1000 );
 // })
 
+// $(window).scroll(function() {
+//   if ( $(this).scrollTop() > 10 ) {
+//     $('.navbar').addClass('bg-dark')
+//   }
+//   else ('.navbar').removeClass('bg-dark')
+// })
 
 
-$('.my-btn').click(function(){
+
+$('.my-btn').click(function() {
   let value = $(this).attr('data-filter');
 
   if (value === 'all'){
