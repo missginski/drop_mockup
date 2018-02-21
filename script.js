@@ -1,16 +1,3 @@
-// $('.nav-link').click(function(){
-// 	window.scrollTo( 0, 1000 );
-// })
-
-// $(window).scroll(function() {
-//   if ( $(this).scrollTop() > 10 ) {
-//     $('.navbar').addClass('bg-dark')
-//   }
-//   else ('.navbar').removeClass('bg-dark')
-// })
-
-
-
 $('.my-btn').click(function() {
   let value = $(this).attr('data-filter');
 
@@ -22,3 +9,16 @@ $('.my-btn').click(function() {
     $('.filter').filter('.' + value).show('3000');
   }
 });
+
+// $('.nav-link').click(function(){
+// 	window.scrollTo( 0, 1000 );
+// })
+
+// $(window).scroll(function() {
+//   if ( $(this).scrollTop() > 10 ) {
+//     $('.navbar').addClass('bg-light');
+//     $('.navbar').addClass('navbar-light');
+//     $('.navbar').removeClass('navbar-dark');
+//   }
+//   else ('.navbar').removeClass('bg-dark');
+// })
