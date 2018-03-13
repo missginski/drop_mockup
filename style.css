@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,700');
+/*@import url("https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css");*/
+
 body {
 	background-color: #ffd7d4;
 	border-radius: 0;
@@ -207,10 +210,9 @@ footer {
 	margin: 7rem auto;
 }
 
-.social-icon {
-	max-width: 100%;
-	height: auto;
-	margin: 1rem;
+.social-link {
+	color: #2f4074;
+	margin: auto 1rem;
 }
 
 .form-container {
@@ -233,6 +235,10 @@ footer {
 	.desc {
 		max-width: 55%;
 	}
+}
+
+.links-wrapper {
+	margin-bottom: 1.5rem;
 }
 
 /*@media only screen and (min-width : 992px) {

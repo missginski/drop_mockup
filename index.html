@@ -13,17 +13,24 @@
 		<meta charset="utf-8">
 		<meta name="viewport" content="initial-scale=1">
 		<title>DROP</title>
-		<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+		<!-- <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet"> -->
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/css/bootstrap.min.css" integrity="sha384-Zug+QiDoJOrZ5t4lssLdxGhVrurbmBWopoEl+M6BdEfwnCJZtKxi1KgxUyJq13dy" crossorigin="anonymous">
+		<script defer src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
 		<link rel="stylesheet" href="style.css">
 	</head>
 	<body>
 
 	<div class="backdrop" id="home">
-		<nav class="navbar navbar-expand navbar-dark fixed-top">
+		<nav class="navbar navbar-expand-sm mb-4 navbar-dark fixed-top">
 			<div class="container">
+
 				<a class="navbar-brand" href="#home">DROP</a>
-				<div class="navbar-collapse justify-content-end">
+
+				<button class="navbar-toggler"  type="button" data-toggle="collapse" data-target="#myNav" aria-controls="myNav" aria-expanded="false" aria-label="Toggle navigation">
+					<span class="navbar-toggler-icon"></span>
+				</button>
+
+				<div class="collapse navbar-collapse justify-content-end" id="myNav">
 					<ul class="navbar-nav">
 						<li class="nav-item">
 							<a class="nav-link" href="#home">Home</a>
@@ -201,24 +208,24 @@
 
 
 	<footer>
-		<div class="container">
+		<div class="container links-wrapper">
 			<a href="#" class="social-link">
-				<img class="social-icon" src="images/facebook_F.png">
+				<i class="fab fa-facebook-f fa-3x" data-fa-transform="shrink-3.5 down-0.65 left-0.2" data-fa-mask="fas fa-circle"></i>
 			</a>
 			<a href="#" class="social-link">
-				<img class="social-icon" src="images/twitter_F.png">
+				<i class="fab fa-twitter fa-3x" data-fa-transform="shrink-6 down-0.6 right-0.25" data-fa-mask="fas fa-circle"></i>
 			</a>
 			<a href="#" class="social-link">
-				<img class="social-icon" src="images/email_F.png">
+				<i class="fas fa-envelope fa-3x" data-fa-transform="shrink-8" data-fa-mask="fas fa-circle"></i>
 			</a>
 			<a href="#" class="social-link">
-				<img class="social-icon" src="images/googleplus_F.png">
+				<i class="fab fa-google-plus fa-3x"></i>
 			</a>
 			<a href="#" class="social-link">
-				<img class="social-icon" src="images/pinterest_F.png">
+				<i class="fab fa-pinterest fa-3x"></i>
 			</a>
 			<a href="#" class="social-link">
-				<img class="social-icon" src="images/dribbble_F.png">
+				<i class="fab fa-dribbble fa-3x" data-fa-transform="shrink-4" data-fa-mask="fas fa-circle"></i>
 			</a>
 		</div>
 		<p class="text-muted">Copyright @ 2018 Drop</p>
