@@ -22,3 +22,15 @@ $('.my-btn').click(function() {
 //   }
 //   else ('.navbar').removeClass('bg-dark');
 // })
+
+$('.features').waypoint(function(direction) {
+  if (direction === 'down') {
+    $('nav').addClass('sticky');
+    $('nav').addClass('navbar-light');
+    $('nav').removeClass('navbar-dark');
+  } else {
+    $('nav').removeClass('sticky');
+    $('nav').removeClass('navbar-light');
+    $('nav').addClass('navbar-dark');
+  }
+})

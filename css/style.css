@@ -1,9 +1,52 @@
 body {
-	background-color: #ffd7d4;
-	border-radius: 0;
 	font-family: OpenSans, sans-serif;
-	margin: auto;
+	font-weight: 400;
+	font-size: 16px;
+	background-color: #ffd7d4;
+	line-height: 1.7;
+	color: #777;
+	/* text-align: center; */
+	/* border-radius: 0; */
+}
+
+.header {
+	height: 75vh;
+	background-image: url('../images/background_image.png');
+	background-size: cover;
+	background-position: top;
+	position: relative;
+}
+
+.pin {
+	width: 150px;
+}
+
+.img-wrapper {
+	position: absolute;
+	top: 0;
+	left: 50%;
+	padding: 8.5rem 0;
+	transform: translateX(-50%);
+}
+
+.text-box {
+	position: absolute;
+	top: 65%;
+	left: 50%;
+	transform: translateX(-50%);
 	text-align: center;
+	width: 850px;
+}
+
+.heading-primary {
+	color: #fff;
+}
+
+.heading-primary-main {
+	font-size: 3rem;
+	text-transform: uppercase;
+	text-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+
 }
 
 .navbar-brand {
@@ -15,44 +58,25 @@ body {
 	background-color: rgba(0, 0, 0, 0.25);
 	font-size: .875em;
 	text-transform: uppercase;
+	padding: 1.5rem 0;
 }
 
-.backdrop {
-	background-image: url('../images/background_image.png');
-	background-size: cover;
-	max-width: 100%;
-	height: auto;
-	padding: 5rem 0;
+.sticky {
+	background-color: white;
+	padding: 0;
 }
 
-.pin {
-	max-width: 100%;
-	height: auto;
-	padding-bottom: 2.5rem;
+
+
+
+
+.features div {
+	text-align: center;
 }
 
-.title {
-	color: #222222;
-	font-size: 2.25em;
-	margin-bottom: 2rem;
-	text-transform: uppercase;
-}
 
-.title-top {
-	color: #ffffff;
-	font-size: 3em;
-	text-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
-	font-weight: bold;
-}
 
-.title-info {
-	color: #d8d8d8;
-	font-weight: 300;
-	line-height: 1.6;
-	padding-top: .5rem;
-	margin: auto;
-	max-width: 85%;
-}
+
 
 .feature-title {
 	color: #222222;
