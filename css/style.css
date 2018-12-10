@@ -5,8 +5,6 @@ body {
 	background-color: #ffd7d4;
 	line-height: 1.7;
 	color: #777;
-	/* text-align: center; */
-	/* border-radius: 0; */
 }
 
 .header {
@@ -46,12 +44,15 @@ body {
 	font-size: 3rem;
 	text-transform: uppercase;
 	text-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
-
 }
 
 .navbar-brand {
 	font-size: 2.25em;
 	font-weight: 300;
+}
+
+.nav-item {
+	padding-left: 1rem;
 }
 
 .navbar {
@@ -66,17 +67,9 @@ body {
 	padding: 0;
 }
 
-
-
-
-
 .features div {
 	text-align: center;
 }
-
-
-
-
 
 .feature-title {
 	color: #222222;
@@ -85,6 +78,11 @@ body {
 	line-height: 0.95;
 	padding-top: 2rem;
 	padding-bottom: .5rem;
+}
+
+.title {
+	text-transform: uppercase;
+	color: #000;
 }
 
 .section-wrapper {
@@ -132,6 +130,7 @@ body {
 	background-color: #ffffff;
 	margin-bottom: 1.5rem;
 	padding-top: 6rem;
+	text-align: center;
 }
 
 .team-pics {
@@ -198,6 +197,7 @@ body {
 	background-image: url('../images/contact_image.png');
 	background-size: cover;
 	padding: 6rem 0 3rem 0;
+	text-align: center;
 }
 
 .contact-desc {
@@ -229,6 +229,7 @@ body {
 
 footer {
 	margin: 7rem auto;
+	text-align: center;
 }
 
 .social-icon {
