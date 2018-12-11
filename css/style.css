@@ -274,3 +274,18 @@ footer {
 	.dropdown>.dropdown-toggle:active {
 	    pointer-events: none;
 	}*/
+
+.photo {
+	width: 100%;
+}
+
+.photo img {
+	width: 100%;
+	height: auto;
+	/* transform: scale(1.15); */
+}
+
+.photo img:hover {
+	transform: scale(1.15);
+	transition: transform .5s;
+}
