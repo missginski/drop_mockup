@@ -79,7 +79,7 @@ body {
 }
 
 .sticky {
-	background-color: white;
+	background-color: #efefef;
 	padding: 0;
 }
 
@@ -298,25 +298,46 @@ footer {
 	margin-bottom: 1.5rem;
 }
 
-/*@media only screen and (min-width : 992px) {
-	.dropdown:hover>.dropdown-menu {
-	  display: block;
-	}
-	.dropdown>.dropdown-toggle:active {
-	    pointer-events: none;
-	}*/
-
-.photo {
+/* .photo {
 	width: 100%;
 }
 
 .photo img {
 	width: 100%;
 	height: auto;
-	/* transform: scale(1.15); */
+	transform: scale(1.15);
 }
 
-/* .photo img:hover {
+.photo img:hover {
 	transform: scale(1.15);
 	transition: transform .5s;
 } */
+
+/* ------------------------ */
+/* ANIMATIONS */
+/* ------------------------ */
+
+.js--wp-1,
+.js--wp-2,
+.js--wp-3,
+.js--wp-4,
+.js--wp-5,
+.js--wp-6 {
+	opacity: 0;
+	-webkit-animation-duration: 1s;
+	        animation-duration: 1s;
+}
+
+/* .js--wp-4 {
+	-webkit-animation-duration: 1s;
+	        animation-duration: 1s;
+} */
+
+.js--wp-1.animated,
+.js--wp-2.animated,
+.js--wp-3.animated,
+.js--wp-4.animated,
+.js--wp-5.animated,
+.js--wp-6.animated {
+	opacity: 1;
+}

@@ -11,20 +11,7 @@ $('.my-btn').click(function() {
   }
 });
 
-// $('.nav-link').click(function(){
-// 	window.scrollTo( 0, 1000 );
-// })
-
-// $(window).scroll(function() {
-//   if ( $(this).scrollTop() > 10 ) {
-//     $('.navbar').addClass('bg-light');
-//     $('.navbar').addClass('navbar-light');
-//     $('.navbar').removeClass('navbar-dark');
-//   }
-//   else ('.navbar').removeClass('bg-dark');
-// })
-
-	// for sticky navigation
+	// sticky navigation
 $('.features').waypoint(function(direction) {
   if (direction === 'down') {
     $('nav').addClass('sticky');
@@ -77,3 +64,41 @@ $('.features').waypoint(function(direction) {
 	      }
 	    }
 	  });
+
+
+// animations on scroll
+$('.js--wp-1').waypoint(function(direction) {
+  $('.js--wp-1').addClass('animated fadeIn');
+}, {
+  offset: '50%'
+});
+
+$('.js--wp-2').waypoint(function(direction) {
+  $('.js--wp-2').addClass('animated fadeIn')
+}, {
+  offset: '50%'
+})
+
+$('.js--wp-3').waypoint(function(direction) {
+  $('.js--wp-3').addClass('animated fadeIn')
+}, {
+  offset: '50%'
+})
+
+$('.js--wp-4').waypoint(function(direction) {
+  $('.js--wp-4').addClass('animated fadeIn')
+}, {
+  offset: '50%'
+})
+
+$('.js--wp-5').waypoint(function(direction) {
+  $('.js--wp-5').addClass('animated fadeIn')
+}, {
+  offset: '50%'
+})
+
+$('.js--wp-6').waypoint(function(direction) {
+  $('.js--wp-6').addClass('animated fadeIn')
+}, {
+  offset: '50%'
+})
